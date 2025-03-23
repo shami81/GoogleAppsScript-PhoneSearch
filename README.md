@@ -26,6 +26,8 @@ Click on Extensions → Apps Script.
 
 Delete any existing code and paste the script from here.
 
+- You can copy the existing Google Sheet to test the code as well. https://docs.google.com/spreadsheets/d/1Wh8yfNXjaA0A9qKpJf51MT4TI_mvpWieSlBNejTzp6E/edit?usp=sharing
+
 2️⃣ Save & Run the Script
 
 Click File → Save.
