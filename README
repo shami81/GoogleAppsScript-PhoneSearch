@@ -1,59 +1,71 @@
-# 📌 Google Apps Script - Phone Number Search
+📌 Google Apps Script - Phone Number Search
 
-## 📖 Overview
+📖 Overview
+
 This Google Apps Script searches for a phone number across multiple Google Sheets and highlights the cell where it is found. It also clears previous highlights before searching and provides an alert with the search results.
 
-## 🚀 Features
-- ✅ Searches for a phone number in predefined sheets.
-- ✅ Highlights the found number in **yellow**.
-- ✅ Clears previous highlights before a new search.
-- ✅ Shifts focus to the found number.
-- ✅ Provides a pop-up alert with search results.
+🚀 Features
 
-## 🛠 Setup & Usage
+✅ Searches for a phone number in predefined sheets.
 
-### **1️⃣ Add the Script to Google Sheets**
-1. Open your **Google Sheet**.
-2. Click on **Extensions** → **Apps Script**.
-3. Delete any existing code and paste the script from [here](script.js).
+✅ Highlights the found number in yellow.
 
-### **2️⃣ Save & Run the Script**
-1. Click **File** → **Save**.
-2. Run `onOpen()` to add the custom menu.
-3. Reload the Google Sheet, and you should see a **Custom Search** menu.
+✅ Clears previous highlights before a new search.
 
-### **3️⃣ Use the Script**
-1. Click **Custom Search** → **Search Phone Number**.
-2. Enter the phone number.
-3. The script will search and highlight the number if found.
+✅ Shifts focus to the found number.
 
----
+✅ Provides a pop-up alert with search results.
 
-## 🎯 Contributing
+🛠 Setup & Usage
+
+1️⃣ Add the Script to Google Sheets
+
+Open your Google Sheet.
+
+Click on Extensions → Apps Script.
+
+Delete any existing code and paste the script from here.
+
+2️⃣ Save & Run the Script
+
+Click File → Save.
+
+Run onOpen() to add the custom menu.
+
+Reload the Google Sheet, and you should see a Custom Search menu.
+
+3️⃣ Use the Script
+
+Click Custom Search → Search Phone Number.
+
+Enter the phone number.
+
+The script will search and highlight the number if found.
+
+🎯 Contributing
+
 Want to improve this project? Follow these steps:
 
-1. **Fork** the repository.
-2. **Clone** it to your local machine:
-   ```sh
-   git clone https://github.com/your-username/GoogleAppsScript-PhoneSearch.git
-   ```
-3. Create a new **branch**:
-   ```sh
-   git checkout -b feature-new-update
-   ```
-4. Make your changes and commit:
-   ```sh
-   git add .
-   git commit -m "Improved search function"
-   ```
-5. Push to GitHub and submit a **Pull Request**.
+Fork the repository.
 
----
+Clone it to your local machine:
 
-## 📜 License
-This project is licensed under the **MIT License**.
+git clone https://github.com/your-username/GoogleAppsScript-PhoneSearch.git
 
----
+Create a new branch:
 
-🚀 **Enjoy automating your Google Sheets!** 🚀
+git checkout -b feature-new-update
+
+Make your changes and commit:
+
+git add .
+git commit -m "Improved search function"
+
+Push to GitHub and submit a Pull Request.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🚀 Enjoy automating your Google Sheets! 🚀
 
