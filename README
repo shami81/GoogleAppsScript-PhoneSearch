@@ -1,0 +1,55 @@
+# 📌 Google Apps Script - Phone Number Search
+
+## 📖 Overview
+This Google Apps Script searches for a phone number across multiple Google Sheets and highlights the cell where it is found. It also clears previous highlights before searching and provides an alert with the search results.
+
+## 🚀 Features
+- Searches for a phone number in predefined sheets.
+- Highlights the found number in **yellow**.
+- Clears previous highlights before a new search.
+- Shifts focus to the found number.
+- Provides a pop-up alert with search results.
+
+## 🛠 Setup & Usage
+### **1️⃣ Add the Script to Google Sheets**
+1. Open your **Google Sheet**.
+2. Click on **Extensions** → **Apps Script**.
+3. Delete any existing code and paste the following script:
+
+## Code Snippet:
+```javascript
+function searchPhoneNumber(phoneNumber) {
+  var sheetNames = ["Flooring", "Drywall", "Windows"];
+  var found = false;
+  var message = "Phone number not found in any sheet.";
+
+  // Clear formatting from all sheets before searching
+  for (var i = 0; i < sheetNames.length; i++) {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetNames[i]);
+    sheet.getDataRange().setBackground(null); // Reset background color
+  }
+```
+
+### **2️⃣ Save & Run the Script**
+1. Click **File** → **Save**.
+2. Run `onOpen()` to add the custom menu.
+3. Reload the Google Sheet, and you should see a **Custom Search** menu.
+
+### **3️⃣ Use the Script**
+1. Click **Custom Search** → **Search Phone Number**.
+2. Enter the phone number.
+3. The script will search and highlight the number if found.
+
+## 🎯 Contributing
+Want to improve this project? Follow these steps:
+1. **Fork** the repository.
+2. **Clone** it to your local machine.
+3. Create a new **branch** and make changes.
+4. Push to GitHub and submit a **Pull Request**.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+🚀 **Enjoy automating your Google Sheets!** 🚀
+
